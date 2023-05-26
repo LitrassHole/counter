@@ -1,4 +1,5 @@
-import {countCaloriesNorm} from './caloriesCounter.js'
+'use strict';
+import {countCaloriesNorm} from './calories-сounter.js'
 
 const form = document.querySelector('.counter__form');
 const submitButton = document.querySelector('.form__submit-button');
@@ -37,6 +38,7 @@ submitButton.addEventListener('click', (evt) => {
 });
 
 resetButton.addEventListener('reset', () => {});
+
 form.addEventListener('reset', () => {
     resetButton.disabled = true;
     infoBlock.classList.add('counter__result--hidden');

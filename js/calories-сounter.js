@@ -1,4 +1,4 @@
-//count
+'use strict';
 //sex coefficient
 const WOMEN_COEFFICIENT = -161;
 const MEN_COEFFICIENT = 5;
@@ -30,7 +30,7 @@ const heightInput = document.querySelector('#height');
 const weightInput = document.querySelector('#weight');
 
 function countCalories(sexCoef, activityCoef, age, height, weight) {
-    return activityCoef*((10*weight)+(6.26*height)-(5*age)+sexCoef);
+    return activityCoef*((10*weight)+(6.25*height)-(5*age)+sexCoef);
 }
 
 function countCaloriesNorm() {

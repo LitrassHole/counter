@@ -1,2 +1,3 @@
+'use strict';
 import './form.js';
-import './caloriesCounter.js'
+import './calories-сounter.js'
